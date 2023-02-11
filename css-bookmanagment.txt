@@ -1,0 +1,79 @@
+.book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-button:hover {
+  background-color: darkgreen;
+}
+
+.books-section {
+  margin-top: 20px;
+  width: 80%;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #eee;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
